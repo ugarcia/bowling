@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Bowling!</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+    <h1>Bowling</h1>
+
+    <label>Players</label>
+    <input type='number' class='num-players' value='5'>
+
+    <label>Frames</label>
+    <input type='number' class='num-frames' value='10'>
+
+    <label>Pins</label>
+    <input type='number' class='num-pins' value='10'>
+
+    <input type='checkbox' class='extra-shots' checked>
+    <span>Extra shots last frame</span>
+
+    <input type='checkbox' class='sync'>
+    <span>Sync</span>
+
+    <button class='start'>Start</button>
+
+    <table class='bowling-scores'>
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+
+    <script type="text/javascript" src="shot.js"></script>
+    <script type="text/javascript" src="frame.js"></script>
+    <script type="text/javascript" src="player.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="ui.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

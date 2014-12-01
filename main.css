@@ -1,0 +1,59 @@
+body  {
+    text-align: center;
+}
+
+table {
+       border-collapse: collapse;
+       width: 100%;
+}
+
+.bowling-scores {
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+}
+
+.bowling-scores table tr:first-child td {
+       border-bottom: 1px solid #cccccc;
+       border-right: 1px solid #cccccc;
+}
+
+.bowling-scores table tr:first-child td:last-child {
+       border-right: none;
+}
+
+.bowling-scores td {
+       text-align: center;
+       height: 40px;
+       padding: 0;
+       min-width: 40px;
+}
+
+.bowling-scores > tbody > tr > td,
+.bowling-scores > thead > tr > th {
+       border: 1px solid #cccccc;       
+}
+
+.start {
+    margin-left: 20px;
+    padding: 4px 10px;
+    border-radius: 10%;
+}
+
+.start:not([disabled]) {
+    cursor: pointer;
+}
+
+.start:not([disabled]):hover {
+    opacity: 0.7;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type=number] {
+    width: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
